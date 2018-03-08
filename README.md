@@ -5,3 +5,5 @@ sudo docker build -t myfitnesse:latest .
 sudo docker run -it myfitnesse
 ## Lauch docker bash
 sudo docker exec -ti 80b69b804112 bash
+## Launch the fitnesse server
+http://172.17.0.2:8080/FrontPage
